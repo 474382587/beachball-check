@@ -8,7 +8,13 @@
   "dependencies": {
     "beachball": "^2.21.0"
   },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "scripts": {
-    "change": "yarn beachball check"
+    "change": "yarn beachball change"
   }
 }
